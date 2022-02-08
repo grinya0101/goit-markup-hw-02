@@ -1,0 +1,36 @@
+:root {
+  --primary-text-color: #2196f3;
+  --title-text-color: #757575;
+  --accent-color: #212121;
+}
+
+.body {
+  background-color: #e5e5e5;
+  color: #212121;
+}
+
+ul {
+  list-style: none;
+}
+
+/* sita-nav*/
+.nav-link {
+  color: var(--accent-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--primary-text-color);
+}
+
+.text {
+  color: var(--title-text-color);
+}
+
+/* nav */
+.title {
+  color: var(--title-text-color);
+}
+
+.title:hover,
+.title:focus {
+  color: var(--primary-text-color);
