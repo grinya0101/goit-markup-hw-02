@@ -7,26 +7,54 @@
 .body {
   background-color: #e5e5e5;
   color: #212121;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
 ul {
   list-style: none;
 }
 
-/* sita-nav*/
+/* список ссылок навигации*/
 .nav-link {
   color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .nav-link:hover,
 .nav-link:focus {
   color: var(--primary-text-color);
 }
 
+/* текст по */
 .text {
   color: var(--title-text-color);
 }
 
-/* nav */
+/* кнопки */
+.button-list {
+  cursor: pointer;
+  color: var(--accent-color);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.button-list:hover,
+.button-list:focus {
+  color: #ffffff;
+  background-color: var(--primary-text-color);
+}
+
+/* навигация */
 .title {
   color: var(--title-text-color);
 }
@@ -34,3 +62,20 @@ ul {
 .title:hover,
 .title:focus {
   color: var(--primary-text-color);
+}
+
+/* заголовок */
+.list-title,
+.sabject {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+/* текст */
+.list-title,
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8px;
+}
