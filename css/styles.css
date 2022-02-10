@@ -87,6 +87,7 @@
 .team-desc {
   font-size: 16px;
   line-height: 1.18;
+  color: var(--title-text-color);
 }
 
 /*футер*/
@@ -103,16 +104,10 @@
   line-height: 1.71px;
 }
 
-.phone-mobile,
-.mail1 {
-  color:);
+.footer-phone,
+.footer-mail {
+  color: var(--title-text-color);
 }
-
-.footer-phone, .footer-mail{
-color: var(--title-text-color);
-}
-
-
 
 /*страница портфолио*/
 :root {
@@ -141,11 +136,11 @@ a {
   line-height: 1.19;
 }
 
-.link-logo{
+.link-logo {
   color: var(--primary-text-color);
 }
 
-.link-visible{
+.link-visible {
   color: var(--accent-color);
 }
 
