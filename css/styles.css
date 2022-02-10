@@ -122,6 +122,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
+/*лого*/
 .header-link {
   font-family: Raleway;
   font-weight: 700;
@@ -129,6 +130,7 @@ ul {
   line-height: 1.19;
 }
 
+/*контакты хедер*/
 .contacts-phone:hover,
 .contacts-phone:focus,
 .contacts-mail:hover,
@@ -141,6 +143,7 @@ ul {
   color: var(--title-text-color);
 }
 
+/*заголовок*/
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -151,12 +154,14 @@ ul {
   color: var(--main-tetle-text);
 }
 
+/*кнопка заказать услугу*/
 .hero-button {
   color: var(--main-tetle-text);
   background-color: var(--primary-text-color);
   cursor: pointer;
 }
 
+/*секция особенности*/
 .title {
   color: var(--accent-color);
   font-weight: 700;
@@ -165,11 +170,13 @@ ul {
   text-transform: uppercase;
 }
 
+/*секция план*/
 .upper-title {
   font-size: 14px;
   line-height: 1.71px;
 }
 
+/*Чем мы занимаемся*/
 .about-title {
   color: var(--accent-color);
   font-size: 36px;
@@ -177,16 +184,19 @@ ul {
   text-align: center;
 }
 
+/*наша команда*/
 .team-title {
   font-size: 36px;
   line-height: 1.16;
 }
 
+/*наша команда текст*/
 .team-desc {
   font-size: 16px;
   line-height: 1.18;
 }
 
+/*футер*/
 .foter-link {
   font-family: Raleway;
   font-weight: 700;
