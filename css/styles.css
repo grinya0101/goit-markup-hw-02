@@ -215,3 +215,8 @@ ul {
   font-size: 14px;
   line-height: 1.7px;
 }
+
+.cont-mail,
+.cont-phone {
+  color: var(--title-text-color);
+}
